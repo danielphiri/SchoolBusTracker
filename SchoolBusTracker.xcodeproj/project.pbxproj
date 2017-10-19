@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94B0FCDD1F994738006A9627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B0FCDC1F994738006A9627 /* AppDelegate.swift */; };
+		94B0FCDF1F994738006A9627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B0FCDE1F994738006A9627 /* ViewController.swift */; };
+		94B0FCE21F994738006A9627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B0FCE01F994738006A9627 /* Main.storyboard */; };
+		94B0FCE51F994738006A9627 /* SchoolBusTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94B0FCE31F994738006A9627 /* SchoolBusTracker.xcdatamodeld */; };
+		94B0FCE71F994738006A9627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B0FCE61F994738006A9627 /* Assets.xcassets */; };
+		94B0FCEA1F994738006A9627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B0FCE81F994738006A9627 /* LaunchScreen.storyboard */; };
+		94B0FCF51F994739006A9627 /* SchoolBusTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B0FCF41F994739006A9627 /* SchoolBusTrackerTests.swift */; };
+		94B0FD001F99473A006A9627 /* SchoolBusTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B0FCFF1F99473A006A9627 /* SchoolBusTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94B0FCF11F994739006A9627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94B0FCD11F994736006A9627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B0FCD81F994737006A9627;
+			remoteInfo = SchoolBusTracker;
+		};
+		94B0FCFC1F99473A006A9627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94B0FCD11F994736006A9627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B0FCD81F994737006A9627;
+			remoteInfo = SchoolBusTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94B0FCD91F994737006A9627 /* SchoolBusTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolBusTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B0FCDC1F994738006A9627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94B0FCDE1F994738006A9627 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94B0FCE11F994738006A9627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94B0FCE41F994738006A9627 /* SchoolBusTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SchoolBusTracker.xcdatamodel; sourceTree = "<group>"; };
+		94B0FCE61F994738006A9627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94B0FCE91F994738006A9627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94B0FCEB1F994738006A9627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B0FCF01F994739006A9627 /* SchoolBusTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolBusTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B0FCF41F994739006A9627 /* SchoolBusTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolBusTrackerTests.swift; sourceTree = "<group>"; };
+		94B0FCF61F99473A006A9627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B0FCFB1F99473A006A9627 /* SchoolBusTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolBusTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B0FCFF1F99473A006A9627 /* SchoolBusTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolBusTrackerUITests.swift; sourceTree = "<group>"; };
+		94B0FD011F99473A006A9627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94B0FCD61F994737006A9627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B0FCED1F994739006A9627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B0FCF81F99473A006A9627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94B0FCD01F994736006A9627 = {
+			isa = PBXGroup;
+			children = (
+				94B0FCDB1F994737006A9627 /* SchoolBusTracker */,
+				94B0FCF31F994739006A9627 /* SchoolBusTrackerTests */,
+				94B0FCFE1F99473A006A9627 /* SchoolBusTrackerUITests */,
+				94B0FCDA1F994737006A9627 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94B0FCDA1F994737006A9627 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94B0FCD91F994737006A9627 /* SchoolBusTracker.app */,
+				94B0FCF01F994739006A9627 /* SchoolBusTrackerTests.xctest */,
+				94B0FCFB1F99473A006A9627 /* SchoolBusTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94B0FCDB1F994737006A9627 /* SchoolBusTracker */ = {
+			isa = PBXGroup;
+			children = (
+				94B0FCDC1F994738006A9627 /* AppDelegate.swift */,
+				94B0FCDE1F994738006A9627 /* ViewController.swift */,
+				94B0FCE01F994738006A9627 /* Main.storyboard */,
+				94B0FCE61F994738006A9627 /* Assets.xcassets */,
+				94B0FCE81F994738006A9627 /* LaunchScreen.storyboard */,
+				94B0FCEB1F994738006A9627 /* Info.plist */,
+				94B0FCE31F994738006A9627 /* SchoolBusTracker.xcdatamodeld */,
+			);
+			path = SchoolBusTracker;
+			sourceTree = "<group>";
+		};
+		94B0FCF31F994739006A9627 /* SchoolBusTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				94B0FCF41F994739006A9627 /* SchoolBusTrackerTests.swift */,
+				94B0FCF61F99473A006A9627 /* Info.plist */,
+			);
+			path = SchoolBusTrackerTests;
+			sourceTree = "<group>";
+		};
+		94B0FCFE1F99473A006A9627 /* SchoolBusTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94B0FCFF1F99473A006A9627 /* SchoolBusTrackerUITests.swift */,
+				94B0FD011F99473A006A9627 /* Info.plist */,
+			);
+			path = SchoolBusTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94B0FCD81F994737006A9627 /* SchoolBusTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B0FD041F99473A006A9627 /* Build configuration list for PBXNativeTarget "SchoolBusTracker" */;
+			buildPhases = (
+				94B0FCD51F994737006A9627 /* Sources */,
+				94B0FCD61F994737006A9627 /* Frameworks */,
+				94B0FCD71F994737006A9627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchoolBusTracker;
+			productName = SchoolBusTracker;
+			productReference = 94B0FCD91F994737006A9627 /* SchoolBusTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94B0FCEF1F994739006A9627 /* SchoolBusTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B0FD071F99473A006A9627 /* Build configuration list for PBXNativeTarget "SchoolBusTrackerTests" */;
+			buildPhases = (
+				94B0FCEC1F994739006A9627 /* Sources */,
+				94B0FCED1F994739006A9627 /* Frameworks */,
+				94B0FCEE1F994739006A9627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B0FCF21F994739006A9627 /* PBXTargetDependency */,
+			);
+			name = SchoolBusTrackerTests;
+			productName = SchoolBusTrackerTests;
+			productReference = 94B0FCF01F994739006A9627 /* SchoolBusTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94B0FCFA1F99473A006A9627 /* SchoolBusTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B0FD0A1F99473A006A9627 /* Build configuration list for PBXNativeTarget "SchoolBusTrackerUITests" */;
+			buildPhases = (
+				94B0FCF71F99473A006A9627 /* Sources */,
+				94B0FCF81F99473A006A9627 /* Frameworks */,
+				94B0FCF91F99473A006A9627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B0FCFD1F99473A006A9627 /* PBXTargetDependency */,
+			);
+			name = SchoolBusTrackerUITests;
+			productName = SchoolBusTrackerUITests;
+			productReference = 94B0FCFB1F99473A006A9627 /* SchoolBusTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94B0FCD11F994736006A9627 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Cophiri;
+				TargetAttributes = {
+					94B0FCD81F994737006A9627 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					94B0FCEF1F994739006A9627 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94B0FCD81F994737006A9627;
+					};
+					94B0FCFA1F99473A006A9627 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94B0FCD81F994737006A9627;
+					};
+				};
+			};
+			buildConfigurationList = 94B0FCD41F994736006A9627 /* Build configuration list for PBXProject "SchoolBusTracker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94B0FCD01F994736006A9627;
+			productRefGroup = 94B0FCDA1F994737006A9627 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94B0FCD81F994737006A9627 /* SchoolBusTracker */,
+				94B0FCEF1F994739006A9627 /* SchoolBusTrackerTests */,
+				94B0FCFA1F99473A006A9627 /* SchoolBusTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94B0FCD71F994737006A9627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B0FCEA1F994738006A9627 /* LaunchScreen.storyboard in Resources */,
+				94B0FCE71F994738006A9627 /* Assets.xcassets in Resources */,
+				94B0FCE21F994738006A9627 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B0FCEE1F994739006A9627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B0FCF91F99473A006A9627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94B0FCD51F994737006A9627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B0FCDF1F994738006A9627 /* ViewController.swift in Sources */,
+				94B0FCDD1F994738006A9627 /* AppDelegate.swift in Sources */,
+				94B0FCE51F994738006A9627 /* SchoolBusTracker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B0FCEC1F994739006A9627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B0FCF51F994739006A9627 /* SchoolBusTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B0FCF71F99473A006A9627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B0FD001F99473A006A9627 /* SchoolBusTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94B0FCF21F994739006A9627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B0FCD81F994737006A9627 /* SchoolBusTracker */;
+			targetProxy = 94B0FCF11F994739006A9627 /* PBXContainerItemProxy */;
+		};
+		94B0FCFD1F99473A006A9627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B0FCD81F994737006A9627 /* SchoolBusTracker */;
+			targetProxy = 94B0FCFC1F99473A006A9627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94B0FCE01F994738006A9627 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94B0FCE11F994738006A9627 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94B0FCE81F994738006A9627 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94B0FCE91F994738006A9627 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94B0FD021F99473A006A9627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94B0FD031F99473A006A9627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94B0FD051F99473A006A9627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M62A5HCKB;
+				INFOPLIST_FILE = SchoolBusTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielphiri.SchoolBusTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94B0FD061F99473A006A9627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M62A5HCKB;
+				INFOPLIST_FILE = SchoolBusTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielphiri.SchoolBusTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94B0FD081F99473A006A9627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M62A5HCKB;
+				INFOPLIST_FILE = SchoolBusTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielphiri.SchoolBusTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchoolBusTracker.app/SchoolBusTracker";
+			};
+			name = Debug;
+		};
+		94B0FD091F99473A006A9627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M62A5HCKB;
+				INFOPLIST_FILE = SchoolBusTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielphiri.SchoolBusTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchoolBusTracker.app/SchoolBusTracker";
+			};
+			name = Release;
+		};
+		94B0FD0B1F99473A006A9627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M62A5HCKB;
+				INFOPLIST_FILE = SchoolBusTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielphiri.SchoolBusTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SchoolBusTracker;
+			};
+			name = Debug;
+		};
+		94B0FD0C1F99473A006A9627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M62A5HCKB;
+				INFOPLIST_FILE = SchoolBusTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielphiri.SchoolBusTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SchoolBusTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94B0FCD41F994736006A9627 /* Build configuration list for PBXProject "SchoolBusTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B0FD021F99473A006A9627 /* Debug */,
+				94B0FD031F99473A006A9627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B0FD041F99473A006A9627 /* Build configuration list for PBXNativeTarget "SchoolBusTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B0FD051F99473A006A9627 /* Debug */,
+				94B0FD061F99473A006A9627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B0FD071F99473A006A9627 /* Build configuration list for PBXNativeTarget "SchoolBusTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B0FD081F99473A006A9627 /* Debug */,
+				94B0FD091F99473A006A9627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B0FD0A1F99473A006A9627 /* Build configuration list for PBXNativeTarget "SchoolBusTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B0FD0B1F99473A006A9627 /* Debug */,
+				94B0FD0C1F99473A006A9627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94B0FCE31F994738006A9627 /* SchoolBusTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94B0FCE41F994738006A9627 /* SchoolBusTracker.xcdatamodel */,
+			);
+			currentVersion = 94B0FCE41F994738006A9627 /* SchoolBusTracker.xcdatamodel */;
+			path = SchoolBusTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 94B0FCD11F994736006A9627 /* Project object */;
+}
