@@ -232,8 +232,8 @@
 			children = (
 				94C4F6CA1FEC954C001539BD /* GoogleService-Info.plist */,
 				94B0FCDC1F994738006A9627 /* AppDelegate.swift */,
-				94B0FCE01F994738006A9627 /* Main.storyboard */,
 				94B0FCE81F994738006A9627 /* LaunchScreen.storyboard */,
+				94B0FCE01F994738006A9627 /* Main.storyboard */,
 				94B0FCE61F994738006A9627 /* Assets.xcassets */,
 				94B0FCE31F994738006A9627 /* SchoolBusTracker.xcdatamodeld */,
 			);
