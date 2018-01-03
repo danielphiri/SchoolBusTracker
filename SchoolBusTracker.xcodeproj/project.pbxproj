@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DE3496A986BDB096774EE26 /* Pods_SchoolBusTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90075960D57E81B382B234CE /* Pods_SchoolBusTrackerTests.framework */; };
+		944BB3451FABC46500F47D0D /* StudentRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944BB3441FABC46500F47D0D /* StudentRegistrationViewController.swift */; };
+		944BB3471FABC49600F47D0D /* AddressesEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944BB3461FABC49600F47D0D /* AddressesEntryViewController.swift */; };
 		94B0FCDD1F994738006A9627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B0FCDC1F994738006A9627 /* AppDelegate.swift */; };
-		94B0FCDF1F994738006A9627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B0FCDE1F994738006A9627 /* ViewController.swift */; };
 		94B0FCE21F994738006A9627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B0FCE01F994738006A9627 /* Main.storyboard */; };
 		94B0FCE51F994738006A9627 /* SchoolBusTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94B0FCE31F994738006A9627 /* SchoolBusTracker.xcdatamodeld */; };
 		94B0FCE71F994738006A9627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B0FCE61F994738006A9627 /* Assets.xcassets */; };
 		94B0FCEA1F994738006A9627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B0FCE81F994738006A9627 /* LaunchScreen.storyboard */; };
 		94B0FCF51F994739006A9627 /* SchoolBusTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B0FCF41F994739006A9627 /* SchoolBusTrackerTests.swift */; };
 		94B0FD001F99473A006A9627 /* SchoolBusTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B0FCFF1F99473A006A9627 /* SchoolBusTrackerUITests.swift */; };
+		94C4F6CB1FEC954D001539BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94C4F6CA1FEC954C001539BD /* GoogleService-Info.plist */; };
+		94C4F6CD1FF17728001539BD /* ParentAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C4F6CC1FF17728001539BD /* ParentAccount.swift */; };
+		94CC39D11FF48303004F7FC9 /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CC39D01FF48303004F7FC9 /* FrontViewController.swift */; };
+		94CC39D31FF4BDB1004F7FC9 /* StudentAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CC39D21FF4BDB1004F7FC9 /* StudentAccount.swift */; };
+		94CC39D51FF4BDF7004F7FC9 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CC39D41FF4BDF7004F7FC9 /* Address.swift */; };
+		94DE7DD11FCDFAF20066900A /* StudentNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE7DD01FCDFAF20066900A /* StudentNavigationViewController.swift */; };
+		94ECDBDD1FA80534006EFA8B /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ECDBDC1FA80534006EFA8B /* LogInViewController.swift */; };
+		94ECDBDF1FA8057D006EFA8B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ECDBDE1FA8057D006EFA8B /* SignUpViewController.swift */; };
+		94ECDBE11FA805BD006EFA8B /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ECDBE01FA805BD006EFA8B /* Strings.swift */; };
+		94ECDBE61FA80DA3006EFA8B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ECDBE51FA80DA3006EFA8B /* MapViewController.swift */; };
+		E0566D18F61E586E059184C5 /* Pods_SchoolBusTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F536B31D32B272A2CEE1181C /* Pods_SchoolBusTracker.framework */; };
+		F450E087CA1D6B944F8EFC7B /* Pods_SchoolBusTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11EA97C939D1009461C8D764 /* Pods_SchoolBusTrackerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		032FC90D8D5CF5D4CAB5EC0F /* Pods-SchoolBusTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchoolBusTrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SchoolBusTrackerTests/Pods-SchoolBusTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		11EA97C939D1009461C8D764 /* Pods_SchoolBusTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchoolBusTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		184DB9B40E99EAEA3DBCC23B /* Pods-SchoolBusTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchoolBusTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-SchoolBusTracker/Pods-SchoolBusTracker.release.xcconfig"; sourceTree = "<group>"; };
+		90075960D57E81B382B234CE /* Pods_SchoolBusTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchoolBusTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		944BB3441FABC46500F47D0D /* StudentRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRegistrationViewController.swift; sourceTree = "<group>"; };
+		944BB3461FABC49600F47D0D /* AddressesEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesEntryViewController.swift; sourceTree = "<group>"; };
 		94B0FCD91F994737006A9627 /* SchoolBusTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolBusTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B0FCDC1F994738006A9627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94B0FCDE1F994738006A9627 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		94B0FCE11F994738006A9627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94B0FCE41F994738006A9627 /* SchoolBusTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SchoolBusTracker.xcdatamodel; sourceTree = "<group>"; };
 		94B0FCE61F994738006A9627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +68,21 @@
 		94B0FCFB1F99473A006A9627 /* SchoolBusTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolBusTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B0FCFF1F99473A006A9627 /* SchoolBusTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolBusTrackerUITests.swift; sourceTree = "<group>"; };
 		94B0FD011F99473A006A9627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C4F6CA1FEC954C001539BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		94C4F6CC1FF17728001539BD /* ParentAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentAccount.swift; sourceTree = "<group>"; };
+		94CC39D01FF48303004F7FC9 /* FrontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontViewController.swift; sourceTree = "<group>"; };
+		94CC39D21FF4BDB1004F7FC9 /* StudentAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAccount.swift; sourceTree = "<group>"; };
+		94CC39D41FF4BDF7004F7FC9 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		94DE7DD01FCDFAF20066900A /* StudentNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentNavigationViewController.swift; sourceTree = "<group>"; };
+		94ECDBDC1FA80534006EFA8B /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		94ECDBDE1FA8057D006EFA8B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		94ECDBE01FA805BD006EFA8B /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		94ECDBE51FA80DA3006EFA8B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C3D1450A9D60E5BFB136486E /* Pods-SchoolBusTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchoolBusTrackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SchoolBusTrackerUITests/Pods-SchoolBusTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C46C9B8A9D51E16774708FC5 /* Pods-SchoolBusTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchoolBusTrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SchoolBusTrackerTests/Pods-SchoolBusTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC366B98670491045EA2DF16 /* Pods-SchoolBusTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchoolBusTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SchoolBusTracker/Pods-SchoolBusTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		F1DF6CD992564883D6DE8850 /* Pods-SchoolBusTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchoolBusTrackerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SchoolBusTrackerUITests/Pods-SchoolBusTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F536B31D32B272A2CEE1181C /* Pods_SchoolBusTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchoolBusTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0566D18F61E586E059184C5 /* Pods_SchoolBusTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE3496A986BDB096774EE26 /* Pods_SchoolBusTrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +106,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F450E087CA1D6B944F8EFC7B /* Pods_SchoolBusTrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E641B1DC3BE5FD229C13E85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F536B31D32B272A2CEE1181C /* Pods_SchoolBusTracker.framework */,
+				90075960D57E81B382B234CE /* Pods_SchoolBusTrackerTests.framework */,
+				11EA97C939D1009461C8D764 /* Pods_SchoolBusTrackerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F4870E0834335E349E6C428 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC366B98670491045EA2DF16 /* Pods-SchoolBusTracker.debug.xcconfig */,
+				184DB9B40E99EAEA3DBCC23B /* Pods-SchoolBusTracker.release.xcconfig */,
+				032FC90D8D5CF5D4CAB5EC0F /* Pods-SchoolBusTrackerTests.debug.xcconfig */,
+				C46C9B8A9D51E16774708FC5 /* Pods-SchoolBusTrackerTests.release.xcconfig */,
+				C3D1450A9D60E5BFB136486E /* Pods-SchoolBusTrackerUITests.debug.xcconfig */,
+				F1DF6CD992564883D6DE8850 /* Pods-SchoolBusTrackerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		944BB3431FABC40E00F47D0D /* Registrations */ = {
+			isa = PBXGroup;
+			children = (
+				944BB3441FABC46500F47D0D /* StudentRegistrationViewController.swift */,
+				944BB3461FABC49600F47D0D /* AddressesEntryViewController.swift */,
+			);
+			path = Registrations;
+			sourceTree = "<group>";
+		};
 		94B0FCD01F994736006A9627 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +152,8 @@
 				94B0FCF31F994739006A9627 /* SchoolBusTrackerTests */,
 				94B0FCFE1F99473A006A9627 /* SchoolBusTrackerUITests */,
 				94B0FCDA1F994737006A9627 /* Products */,
+				8F4870E0834335E349E6C428 /* Pods */,
+				5E641B1DC3BE5FD229C13E85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +170,13 @@
 		94B0FCDB1F994737006A9627 /* SchoolBusTracker */ = {
 			isa = PBXGroup;
 			children = (
-				94B0FCDC1F994738006A9627 /* AppDelegate.swift */,
-				94B0FCDE1F994738006A9627 /* ViewController.swift */,
-				94B0FCE01F994738006A9627 /* Main.storyboard */,
-				94B0FCE61F994738006A9627 /* Assets.xcassets */,
-				94B0FCE81F994738006A9627 /* LaunchScreen.storyboard */,
 				94B0FCEB1F994738006A9627 /* Info.plist */,
-				94B0FCE31F994738006A9627 /* SchoolBusTracker.xcdatamodeld */,
+				94ECDBE41FA80D71006EFA8B /* Main View */,
+				94ECDBE31FA805FF006EFA8B /* App Essentials */,
+				944BB3431FABC40E00F47D0D /* Registrations */,
+				94ECDBE21FA805C4006EFA8B /* Constants */,
+				94CC39D61FF4C889004F7FC9 /* UserAccounts */,
+				94ECDBDA1FA80486006EFA8B /* Authentication */,
 			);
 			path = SchoolBusTracker;
 			sourceTree = "<group>";
@@ -128,6 +199,56 @@
 			path = SchoolBusTrackerUITests;
 			sourceTree = "<group>";
 		};
+		94CC39D61FF4C889004F7FC9 /* UserAccounts */ = {
+			isa = PBXGroup;
+			children = (
+				94CC39D21FF4BDB1004F7FC9 /* StudentAccount.swift */,
+				94C4F6CC1FF17728001539BD /* ParentAccount.swift */,
+				94CC39D41FF4BDF7004F7FC9 /* Address.swift */,
+			);
+			path = UserAccounts;
+			sourceTree = "<group>";
+		};
+		94ECDBDA1FA80486006EFA8B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				94ECDBDC1FA80534006EFA8B /* LogInViewController.swift */,
+				94ECDBDE1FA8057D006EFA8B /* SignUpViewController.swift */,
+				94CC39D01FF48303004F7FC9 /* FrontViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		94ECDBE21FA805C4006EFA8B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				94ECDBE01FA805BD006EFA8B /* Strings.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		94ECDBE31FA805FF006EFA8B /* App Essentials */ = {
+			isa = PBXGroup;
+			children = (
+				94C4F6CA1FEC954C001539BD /* GoogleService-Info.plist */,
+				94B0FCDC1F994738006A9627 /* AppDelegate.swift */,
+				94B0FCE01F994738006A9627 /* Main.storyboard */,
+				94B0FCE81F994738006A9627 /* LaunchScreen.storyboard */,
+				94B0FCE61F994738006A9627 /* Assets.xcassets */,
+				94B0FCE31F994738006A9627 /* SchoolBusTracker.xcdatamodeld */,
+			);
+			path = "App Essentials";
+			sourceTree = "<group>";
+		};
+		94ECDBE41FA80D71006EFA8B /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				94ECDBE51FA80DA3006EFA8B /* MapViewController.swift */,
+				94DE7DD01FCDFAF20066900A /* StudentNavigationViewController.swift */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94B0FD041F99473A006A9627 /* Build configuration list for PBXNativeTarget "SchoolBusTracker" */;
 			buildPhases = (
+				AC7F88981DE5350BF93556C4 /* [CP] Check Pods Manifest.lock */,
 				94B0FCD51F994737006A9627 /* Sources */,
 				94B0FCD61F994737006A9627 /* Frameworks */,
 				94B0FCD71F994737006A9627 /* Resources */,
+				704377CC49EDCC7A264F1F67 /* [CP] Embed Pods Frameworks */,
+				A447C32AB67F3DB28BAD3D6E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +276,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94B0FD071F99473A006A9627 /* Build configuration list for PBXNativeTarget "SchoolBusTrackerTests" */;
 			buildPhases = (
+				3E1991618DFF23DE42AAFF2D /* [CP] Check Pods Manifest.lock */,
 				94B0FCEC1F994739006A9627 /* Sources */,
 				94B0FCED1F994739006A9627 /* Frameworks */,
 				94B0FCEE1F994739006A9627 /* Resources */,
+				792F7258409802C6CB2EC947 /* [CP] Embed Pods Frameworks */,
+				5C63EEA46C55E502570BA8FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +297,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94B0FD0A1F99473A006A9627 /* Build configuration list for PBXNativeTarget "SchoolBusTrackerUITests" */;
 			buildPhases = (
+				53ED44DEB585832704DEF767 /* [CP] Check Pods Manifest.lock */,
 				94B0FCF71F99473A006A9627 /* Sources */,
 				94B0FCF81F99473A006A9627 /* Frameworks */,
 				94B0FCF91F99473A006A9627 /* Resources */,
+				B75C663CE20FB459F0AB0154 /* [CP] Embed Pods Frameworks */,
+				42EC3A6F022A2CC5229340CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94B0FCEA1F994738006A9627 /* LaunchScreen.storyboard in Resources */,
+				94C4F6CB1FEC954D001539BD /* GoogleService-Info.plist in Resources */,
 				94B0FCE71F994738006A9627 /* Assets.xcassets in Resources */,
 				94B0FCE21F994738006A9627 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +388,176 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E1991618DFF23DE42AAFF2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SchoolBusTrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42EC3A6F022A2CC5229340CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SchoolBusTrackerUITests/Pods-SchoolBusTrackerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53ED44DEB585832704DEF767 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SchoolBusTrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C63EEA46C55E502570BA8FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SchoolBusTrackerTests/Pods-SchoolBusTrackerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		704377CC49EDCC7A264F1F67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SchoolBusTracker/Pods-SchoolBusTracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SchoolBusTracker/Pods-SchoolBusTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		792F7258409802C6CB2EC947 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SchoolBusTrackerTests/Pods-SchoolBusTrackerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A447C32AB67F3DB28BAD3D6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SchoolBusTracker/Pods-SchoolBusTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC7F88981DE5350BF93556C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SchoolBusTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B75C663CE20FB459F0AB0154 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SchoolBusTrackerUITests/Pods-SchoolBusTrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94B0FCD51F994737006A9627 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B0FCDF1F994738006A9627 /* ViewController.swift in Sources */,
 				94B0FCDD1F994738006A9627 /* AppDelegate.swift in Sources */,
+				94ECDBE61FA80DA3006EFA8B /* MapViewController.swift in Sources */,
+				94CC39D51FF4BDF7004F7FC9 /* Address.swift in Sources */,
 				94B0FCE51F994738006A9627 /* SchoolBusTracker.xcdatamodeld in Sources */,
+				94DE7DD11FCDFAF20066900A /* StudentNavigationViewController.swift in Sources */,
+				94C4F6CD1FF17728001539BD /* ParentAccount.swift in Sources */,
+				94ECDBE11FA805BD006EFA8B /* Strings.swift in Sources */,
+				944BB3471FABC49600F47D0D /* AddressesEntryViewController.swift in Sources */,
+				94ECDBDF1FA8057D006EFA8B /* SignUpViewController.swift in Sources */,
+				94CC39D11FF48303004F7FC9 /* FrontViewController.swift in Sources */,
+				94ECDBDD1FA80534006EFA8B /* LogInViewController.swift in Sources */,
+				944BB3451FABC46500F47D0D /* StudentRegistrationViewController.swift in Sources */,
+				94CC39D31FF4BDB1004F7FC9 /* StudentAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +721,7 @@
 		};
 		94B0FD051F99473A006A9627 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC366B98670491045EA2DF16 /* Pods-SchoolBusTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +737,7 @@
 		};
 		94B0FD061F99473A006A9627 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 184DB9B40E99EAEA3DBCC23B /* Pods-SchoolBusTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +753,7 @@
 		};
 		94B0FD081F99473A006A9627 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 032FC90D8D5CF5D4CAB5EC0F /* Pods-SchoolBusTrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +771,7 @@
 		};
 		94B0FD091F99473A006A9627 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C46C9B8A9D51E16774708FC5 /* Pods-SchoolBusTrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +789,7 @@
 		};
 		94B0FD0B1F99473A006A9627 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D1450A9D60E5BFB136486E /* Pods-SchoolBusTrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +806,7 @@
 		};
 		94B0FD0C1F99473A006A9627 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1DF6CD992564883D6DE8850 /* Pods-SchoolBusTrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
